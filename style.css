@@ -1,0 +1,42 @@
+body{
+    font-size: 10pt;
+    font-family: arial, sans-serif;
+}
+.apps-grid{
+    width: 14pt;
+    height: 14pt;    
+}
+.apps-grid:hover{
+    cursor: pointer;
+}
+.country{
+    color:rgba(0,0,0,.54);
+}
+.bottom{
+    font-size: 11pt;
+    color:rgba(0,0,0,.54);
+}
+.bottom-a:hover{
+    text-decoration: underline;
+    cursor: pointer
+}
+.top-a:hover{
+    text-decoration: underline;
+    cursor: pointer
+}
+.top-bar{
+    font-size: 10pt;
+    font-family:arial, sans-serif;
+    font-weight: lighter;
+    color: rgba(0,0,0,0.87);
+}
+
+.espanol{
+    color: #1a0dab;
+}
+
+
+.espanol:hover{
+    text-decoration: underline;
+    cursor: pointer
+}
