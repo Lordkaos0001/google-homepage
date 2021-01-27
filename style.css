@@ -1,16 +1,28 @@
 body{
     font-size: 10pt;
     font-family: arial, sans-serif;
-}
+    }
 .apps-grid{
-    width: 14pt;
-    height: 14pt;    
+    width: 13pt;
+    height: 13pt;
+    margin-top: 12px; 
+    margin-left: 23px;   
+}
+.photo{
+    width: 24pt;
+    height: 24pt;
+    margin-top: 4px;
+    margin-left: 20px;
+}
+.photo:hover{
+    cursor: pointer;
 }
 .apps-grid:hover{
     cursor: pointer;
 }
 .country{
     color:rgba(0,0,0,.54);
+    background-color: #f2f2f2;    
 }
 .bottom{
     font-size: 11pt;
@@ -24,10 +36,20 @@ body{
     text-decoration: underline;
     cursor: pointer
 }
+.top-b{
+    margin-left: 15px;
+}
+.top-b:hover{
+    text-decoration: underline;
+    cursor: pointer
+}
 .top-bar{
-    font-size: 10pt;
+    display: flex;
+    font-size: 9.5pt;
     font-family:arial, sans-serif;
-    font-weight: lighter;
+    font-weight: 500;    
+    margin-left: 1133px;
+    padding-top: 3px;
     color: rgba(0,0,0,0.87);
 }
 
@@ -39,4 +61,11 @@ body{
 .espanol:hover{
     text-decoration: underline;
     cursor: pointer
+}
+.google-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 105px;
+    
 }
