@@ -1,6 +1,6 @@
 body{
     font-size: 10pt;
-    font-family: arial, sans-serif;
+    font-family: arial;
     margin: 0;
     padding: 0;
     }
@@ -48,7 +48,7 @@ body{
 .top-bar{
     display: flex;
     font-size: 9.5pt;
-    font-family:arial, sans-serif;
+    font-family:arial;
     font-weight: 500;    
     margin-left: 1133px;
     padding-top: 3px;
@@ -78,18 +78,37 @@ body{
     margin-top: 22px;
     background-color: white;
     height: 50px;
-    width: 400px;
-    box-shadow: 0%;
-    
+    width: 400px;      
 }
+
+.input:hover{
+    box-shadow: 0px 0px 2px 0px;  
+}
+
 button{
     background-color: #f8f9fa;
     border: none;
-    width: 500px;
+    width: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: arial;
+    font-size: 10.5pt;
+    border-radius: 9%;
+        
 }
+.buttons{
+    margin-left: 520px;
+    margin-top: 20px;    
+}
+.button2{
+    margin-left: 8px;
+}
+
 button:hover{
-    cursor: pointer;
-    border: 5px;
-    border-color: #3c4043;
+    cursor: pointer;   
+    box-shadow: 0px 1pt 2pt 1px;
+    border: 1pt solid #e0e0e0;     
+    
+
     
 }
